@@ -1,0 +1,466 @@
+<custommix>
+	<inserts>
+		<insert provider="cable_ie_mk2" source="135" target="077"></insert> <!-- RTE One HD -->
+		<insert provider="cable_ie_mk2" source="136" target="078"></insert> <!-- RTE2 HD -->
+		<insert provider="cable_ie_mk2" source="150" target="079"></insert> <!-- TV3 HD -->
+		<insert provider="cable_ie_mk2" source="137" target="080"></insert> <!-- TG4 HD -->
+		<insert provider="cable_ie_mk2" source="149" target="081"></insert> <!-- 3e HD -->
+		<insert provider="cable_ie_mk2" source="107" target="082"></insert> <!-- RTE One+1 -->
+		<insert provider="cable_ie_mk2" source="148" target="083"></insert> <!-- Be3 HD -->
+		<insert provider="cable_ie_mk2" source="110" target="084"></insert> <!-- TV3+1 -->
+		<insert provider="cable_ie_mk2" source="139" target="085"></insert> <!-- BBC 1 HD -->
+		<insert provider="cable_ie_mk2" source="140" target="086"></insert> <!-- BBC Two HD -->
+		<insert provider="cable_ie_mk2" source="200" target="087"></insert> <!-- RTE News Now -->
+		<insert provider="cable_ie_mk2" source="207" target="088"></insert> <!-- Oireachtas TV -->
+		<insert provider="cable_ie_mk2" source="206" target="089"></insert> <!-- BBC World -->
+		<insert provider="cable_ie_mk2" source="802" target="090"></insert> <!-- DCTV -->
+		<insert provider="cable_ie_mk2" source="803" target="091"></insert> <!-- CCTV -->
+		<insert provider="cable_ie_mk2" source="101" target="092"></insert> <!-- RTE One -->
+		<insert provider="cable_ie_mk2" source="102" target="093"></insert> <!-- RTE2 -->
+		<insert provider="cable_ie_mk2" source="103" target="094"></insert> <!-- TV3 -->
+		<insert provider="cable_ie_mk2" source="104" target="095"></insert> <!-- TG4 -->
+		<insert provider="cable_ie_mk2" source="105" target="096"></insert> <!-- 3e -->
+		<insert provider="cable_ie_mk2" source="106" target="097"></insert> <!-- Be3 -->
+		<insert provider="cable_ie_mk2" source="108" target="098"></insert> <!-- BBC 1 -->
+		<insert provider="cable_ie_mk2" source="109" target="099"></insert> <!-- BBC Two -->
+		<insert provider="cable_ie_mk2" source="111" target="104"></insert> <!-- Channel 4 -->
+		<insert provider="cable_ie_mk2" source="143" target="106"></insert> <!-- Sky One HD -->
+		<insert provider="cable_ie_mk2" source="144" target="107"></insert> <!-- Sky Living HD -->
+		<insert provider="cable_ie_mk2" source="160" target="109"></insert> <!-- W -->
+		<insert provider="cable_ie_mk2" source="120" target="110"></insert> <!-- G.O.L.D. -->
+		<insert provider="cable_ie_mk2" source="122" target="111"></insert> <!-- Dave -->
+		<insert provider="cable_ie_mk2" source="177" target="112"></insert> <!-- Comedy HD -->
+		<insert provider="cable_ie_mk2" source="173" target="113"></insert> <!-- Universal HD -->
+		<insert provider="cable_ie_mk2" source="129" target="114"></insert> <!-- Syfy -->
+		<insert provider="sat_282_sky_irl" source="285" target="116"></insert> <!-- BBC Four HD -->
+		<insert provider="cable_ie_mk2" source="430" target="121"></insert> <!-- Sky Sports Mix HD -->
+		<insert provider="cable_ie_mk2" source="145" target="122"></insert> <!-- Sky Arts HD -->
+		<insert provider="sat_282_sky_irl" source="1181" target="123"></insert> <!-- ITV Encore -->
+		<insert provider="cable_ie_mk2" source="176" target="124"></insert> <!-- FOX HD -->
+		<insert provider="cable_ie_mk2" source="121" target="125"></insert> <!-- TLC -->
+		<insert provider="cable_ie_mk2" source="701" target="126"></insert> <!-- MTV -->
+		<insert provider="cable_ie_mk2" source="128" target="127"></insert> <!-- Comedy +1 -->
+		<insert provider="cable_ie_mk2" source="134" target="128"></insert> <!-- Comedy Extra -->
+		<insert provider="cable_ie_mk2" source="125" target="129"></insert> <!-- Sky Living +1 -->
+		<insert provider="cable_ie_mk2" source="151" target="132"></insert> <!-- Alibi -->
+		<insert provider="sat_282_sky_irl" source="255" target="133"></insert> <!-- Good Food -->
+		<insert provider="cable_ie_mk2" source="162" target="136"></insert> <!-- E4 HD -->
+		<insert provider="cable_ie_mk2" source="113" target="137"></insert> <!-- E4 +1 -->
+		<insert provider="cable_ie_mk2" source="168" target="138"></insert> <!-- More4 HD -->
+		<insert provider="cable_ie_mk2" source="152" target="139"></insert> <!-- More4+1 -->
+		<insert provider="cable_ie_mk2" source="117" target="143"></insert> <!-- BBC Four -->
+		<insert provider="cable_ie_mk2" source="154" target="144"></insert> <!-- Discovery Quest -->
+		<insert provider="cable_ie_mk2" source="157" target="145"></insert> <!-- Challenge -->
+		<insert provider="cable_ie_mk2" source="147" target="151"></insert> <!-- E! -->
+		<insert provider="cable_ie_mk2" source="133" target="152"></insert> <!-- Pick -->
+		<insert provider="cable_ie_mk2" source="155" target="161"></insert> <!-- Discovery Shed -->
+		<insert provider="cable_ie_mk2" source="159" target="162"></insert> <!-- Quest Red -->
+		<insert provider="cable_ie_mk2" source="115" target="163"></insert> <!-- Sky Two -->
+		<insert provider="cable_ie_mk2" source="166" target="165"></insert> <!-- FOX+1 -->
+		<insert provider="cable_ie_mk2" source="153" target="166"></insert> <!-- G.o.l.d. +1 -->
+		<insert provider="cable_ie_mk2" source="210" target="167"></insert> <!-- Home + Health -->
+		<insert provider="cable_ie_mk2" source="158" target="172"></insert> <!-- Real Lives -->
+		<insert provider="cable_ie_mk2" source="126" target="188"></insert> <!-- FOX -->
+		<insert provider="sat_282_sky_irl" source="1051" target="192"></insert> <!-- AMC From BT -->
+		<insert provider="cable_ie_mk2" source="112" target="202"></insert> <!-- E4 -->
+		<insert provider="cable_ie_mk2" source="123" target="204"></insert> <!-- Universal -->
+		<insert provider="cable_ie_mk2" source="127" target="205"></insert> <!-- Comedy Central -->
+		<insert provider="cable_ie_mk2" source="131" target="208"></insert> <!-- ITV 3 -->
+		<insert provider="cable_ie_mk2" source="114" target="221"></insert> <!-- Sky One -->
+		<insert provider="cable_ie_mk2" source="124" target="222"></insert> <!-- Sky Living -->
+		<insert provider="cable_ie_mk2" source="132" target="225"></insert> <!-- ITV 4 -->
+		<insert provider="cable_ie_mk2" source="142" target="227"></insert> <!-- Channel 4 HD -->
+		<insert provider="cable_ie_mk2" source="118" target="231"></insert> <!-- More4 -->
+		<insert provider="cable_ie_mk2" source="141" target="286"></insert> <!-- Sky Arts -->
+		<insert provider="cable_ie_mk2" source="400" target="287"></insert> <!-- Sky Sports Mix -->
+		<insert provider="cable_ie_mk2" source="320" target="301"></insert> <!-- Sky Premiere -->
+		<insert provider="cable_ie_mk2" source="321" target="302"></insert> <!-- Sky Premiere +1 -->
+		<insert provider="cable_ie_mk2" source="318" target="303"></insert> <!-- Sky Hits -->
+		<insert provider="cable_ie_mk2" source="307" target="304"></insert> <!-- Sky Superheroes -->
+		<insert provider="cable_ie_mk2" source="305" target="305"></insert> <!-- Sky Disney -->
+		<insert provider="cable_ie_mk2" source="303" target="306"></insert> <!-- Sky Family -->
+		<insert provider="cable_ie_mk2" source="302" target="307"></insert> <!-- Sky Action -->
+		<insert provider="cable_ie_mk2" source="301" target="308"></insert> <!-- Sky Comedy -->
+		<insert provider="cable_ie_mk2" source="309" target="309"></insert> <!-- Sky Crime and Thriller -->
+		<insert provider="cable_ie_mk2" source="308" target="310"></insert> <!-- Sky Drama -->
+		<insert provider="cable_ie_mk2" source="304" target="311"></insert> <!-- Sky Horror -->
+		<insert provider="cable_ie_mk2" source="306" target="312"></insert> <!-- Sky Select -->
+		<insert provider="cable_ie_mk2" source="341" target="314"></insert> <!-- Sky Premiere HD -->
+		<insert provider="cable_ie_mk2" source="343" target="315"></insert> <!-- Film4 HD -->
+		<insert provider="cable_ie_mk2" source="324" target="316"></insert> <!-- FilmFour +1 -->
+		<insert provider="cable_ie_mk2" source="327" target="317"></insert> <!-- TCM -->
+		<insert provider="cable_ie_mk2" source="328" target="318"></insert> <!-- TCM+1 -->
+		<insert provider="cable_ie_mk2" source="329" target="321"></insert> <!-- True Movies 1 -->
+		<insert provider="cable_ie_mk2" source="340" target="330"></insert> <!-- Sky Hits HD -->
+		<insert provider="cable_ie_mk2" source="337" target="331"></insert> <!-- Sky Superheroes HD -->
+		<insert provider="cable_ie_mk2" source="335" target="332"></insert> <!-- Sky Disney HD -->
+		<insert provider="cable_ie_mk2" source="333" target="333"></insert> <!-- Sky Family HD -->
+		<insert provider="cable_ie_mk2" source="332" target="334"></insert> <!-- Sky Action HD -->
+		<insert provider="cable_ie_mk2" source="331" target="335"></insert> <!-- Sky Comedy HD -->
+		<insert provider="cable_ie_mk2" source="339" target="336"></insert> <!-- Sky Thriller HD -->
+		<insert provider="cable_ie_mk2" source="338" target="337"></insert> <!-- Sky Drama HD -->
+		<insert provider="cable_ie_mk2" source="334" target="339"></insert> <!-- Sky Horror HD -->
+		<insert provider="cable_ie_mk2" source="336" target="340"></insert> <!-- Sky Select HD -->
+		<insert provider="cable_ie_mk2" source="326" target="341"></insert> <!-- MGM Movies -->
+		<insert provider="cable_ie_mk2" source="323" target="342"></insert> <!-- Film Four -->
+		<insert provider="cable_ie_mk2" source="708" target="350"></insert> <!-- MTV Music -->
+		<insert provider="cable_ie_mk2" source="704" target="351"></insert> <!-- MTV Base -->
+		<insert provider="cable_ie_mk2" source="703" target="352"></insert> <!-- MTV Hits -->
+		<insert provider="cable_ie_mk2" source="709" target="353"></insert> <!-- VIVA -->
+		<insert provider="cable_ie_mk2" source="705" target="354"></insert> <!-- MTV Dance -->
+		<insert provider="cable_ie_mk2" source="702" target="355"></insert> <!-- MTV Rocks -->
+		<insert provider="cable_ie_mk2" source="707" target="356"></insert> <!-- MTV Classic -->
+		<insert provider="cable_ie_mk2" source="706" target="357"></insert> <!-- VH1 -->
+		<insert provider="cable_ie_mk2" source="714" target="359"></insert> <!-- Box Upfront -->
+		<insert provider="cable_ie_mk2" source="710" target="360"></insert> <!-- The Box -->
+		<insert provider="cable_ie_mk2" source="712" target="361"></insert> <!-- Box Hits -->
+		<insert provider="cable_ie_mk2" source="716" target="362"></insert> <!-- 4Music -->
+		<insert provider="cable_ie_mk2" source="717" target="363"></insert> <!-- KISS -->
+		<insert provider="cable_ie_mk2" source="713" target="364"></insert> <!-- Magic -->
+		<insert provider="cable_ie_mk2" source="715" target="368"></insert> <!-- Kerrang -->
+		<insert provider="cable_ie_mk2" source="431" target="401"></insert> <!-- Sky Sports Main Event HD -->
+		<insert provider="cable_ie_mk2" source="435" target="402"></insert> <!-- Sky Sports Premier League HD -->
+		<insert provider="cable_ie_mk2" source="437" target="403"></insert> <!-- Sky Sports Football HD -->
+		<insert provider="cable_ie_mk2" source="432" target="404"></insert> <!-- Sky Sports Cricket HD -->
+		<insert provider="cable_ie_mk2" source="434" target="405"></insert> <!-- Sky Sports Golf HD -->
+		<insert provider="cable_ie_mk2" source="433" target="407"></insert> <!-- Sky Sports Action HD -->
+		<insert provider="cable_ie_mk2" source="436" target="408"></insert> <!-- Sky Sports Arena HD -->
+		<insert provider="cable_ie_mk2" source="438" target="409"></insert> <!-- Sky Sports News HD -->
+		<insert provider="cable_ie_mk2" source="424" target="410"></insert> <!-- Eurosport HD -->
+		<insert provider="cable_ie_mk2" source="426" target="411"></insert> <!-- Eurosport 2 HD -->
+		<insert provider="cable_ie_mk2" source="423" target="412"></insert> <!-- Eurosport -->
+		<insert provider="sat_282_sky_irl" source="413" target="413"></insert> <!-- BT Sport 1 -->
+		<insert provider="sat_282_sky_irl" source="414" target="414"></insert> <!-- BT Sport 2 -->
+		<insert provider="cable_ie_mk2" source="418" target="415"></insert> <!-- At The Races -->
+		<insert provider="sat_282_sky_irl" source="417" target="417"></insert> <!-- BT Sport 3 -->
+		<insert provider="sat_282_sky_irl" source="426" target="426"></insert> <!-- BT Sport/ESPN -->
+		<insert provider="cable_ie_mk2" source="401" target="435"></insert> <!-- Sky Sports Main Event -->
+		<insert provider="cable_ie_mk2" source="405" target="436"></insert> <!-- Sky Sports Premier League -->
+		<insert provider="cable_ie_mk2" source="407" target="439"></insert> <!-- Sky Sports Football -->
+		<insert provider="cable_ie_mk2" source="402" target="440"></insert> <!-- Sky Sports Cricket -->
+		<insert provider="cable_ie_mk2" source="425" target="443"></insert> <!-- Eurosport 2 -->
+		<insert provider="cable_ie_mk2" source="404" target="451"></insert> <!-- Sky Sports Golf -->
+		<insert provider="cable_ie_mk2" source="428" target="453"></insert> <!-- MUTV -->
+		<insert provider="cable_ie_mk2" source="403" target="473"></insert> <!-- Sky Sports Action -->
+		<insert provider="cable_ie_mk2" source="406" target="474"></insert> <!-- Sky Sports Arena -->
+		<insert provider="cable_ie_mk2" source="408" target="475"></insert> <!-- Sky Sports News -->
+		<insert provider="cable_ie_mk2" source="862" target="491"></insert> <!-- PPV Channel -->
+		<insert provider="cable_ie_mk2" source="863" target="492"></insert> <!-- PPV Channel 2 -->
+		<insert provider="cable_ie_mk2" source="232" target="501"></insert> <!-- Sky News HD -->
+		<insert provider="cable_ie_mk2" source="240" target="502"></insert> <!-- Bloomberg -->
+		<insert provider="cable_ie_mk2" source="204" target="505"></insert> <!-- CNBC Europe -->
+		<insert provider="sat_282_sky_irl" source="579" target="506"></insert> <!-- CNN HD -->
+		<insert provider="cable_ie_mk2" source="203" target="508"></insert> <!-- Euronews -->
+		<insert provider="sat_282_sky_irl" source="518" target="512"></insert> <!-- RT HD -->
+		<insert provider="cable_ie_mk2" source="202" target="516"></insert> <!-- Sky News -->
+		<insert provider="cable_ie_mk2" source="241" target="518"></insert> <!-- Russia Today -->
+		<insert provider="cable_ie_mk2" source="219" target="520"></insert> <!-- Discovery HD -->
+		<insert provider="cable_ie_mk2" source="209" target="521"></insert> <!-- Disc channel +1 -->
+		<insert provider="sat_282_sky_irl" source="562" target="523"></insert> <!-- Animal Planet -->
+		<insert provider="cable_ie_mk2" source="156" target="524"></insert> <!-- Discovery Turbo -->
+		<insert provider="cable_ie_mk2" source="211" target="525"></insert> <!-- Disc Science -->
+		<insert provider="cable_ie_mk2" source="221" target="526"></insert> <!-- National Geographic HD -->
+		<insert provider="cable_ie_mk2" source="222" target="528"></insert> <!-- Nat Geo Wild HD -->
+		<insert provider="cable_ie_mk2" source="220" target="529"></insert> <!-- History HD -->
+		<insert provider="cable_ie_mk2" source="226" target="531"></insert> <!-- H2 -->
+		<insert provider="sat_282_sky_irl" source="563" target="532"></insert> <!-- Eden -->
+		<insert provider="cable_ie_mk2" source="212" target="535"></insert> <!-- Discovery History -->
+		<insert provider="cable_ie_mk2" source="215" target="543"></insert> <!-- National Geographic -->
+		<insert provider="cable_ie_mk2" source="216" target="544"></insert> <!-- Nat Geo Wild -->
+		<insert provider="cable_ie_mk2" source="217" target="545"></insert> <!-- History Channel -->
+		<insert provider="cable_ie_mk2" source="225" target="553"></insert> <!-- Crime + Investigation HD -->
+		<insert provider="cable_ie_mk2" source="202" target="561"></insert> <!-- Discovery -->
+		<insert provider="cable_ie_mk2" source="201" target="570"></insert> <!-- BBC News 24 -->
+		<insert provider="cable_ie_mk2" source="205" target="579"></insert> <!-- CNN -->
+		<insert provider="cable_ie_mk2" source="816" target="580"></insert> <!-- The God Channel -->
+		<insert provider="cable_ie_mk2" source="815" target="589"></insert> <!-- EWTN -->
+		<insert provider="cable_ie_mk2" source="620" target="601"></insert> <!-- Cartoon Network -->
+		<insert provider="cable_ie_mk2" source="617" target="602"></insert> <!-- CN+1 -->
+		<insert provider="cable_ie_mk2" source="603" target="603"></insert> <!-- Boomerang -->
+		<insert provider="cable_ie_mk2" source="634" target="604"></insert> <!-- Nickelodeon HD -->
+		<insert provider="cable_ie_mk2" source="605" target="605"></insert> <!-- Nick Replay -->
+		<insert provider="cable_ie_mk2" source="606" target="606"></insert> <!-- Nick Toons -->
+		<insert provider="cable_ie_mk2" source="600" target="607"></insert> <!-- RTEjr -->
+		<insert provider="cable_ie_mk2" source="601" target="608"></insert> <!-- TRTE -->
+		<insert provider="cable_ie_mk2" source="633" target="609"></insert> <!-- Disney Channel HD -->
+		<insert provider="cable_ie_mk2" source="602" target="610"></insert> <!-- Cula4 -->
+		<insert provider="cable_ie_mk2" source="616" target="611"></insert> <!-- Disney Junior -->
+		<insert provider="sat_282_sky_irl" source="638" target="613"></insert> <!-- CBBC HD -->
+		<insert provider="sat_282_sky_irl" source="639" target="614"></insert> <!-- Cbeebies HD -->
+		<insert provider="cable_ie_mk2" source="618" target="619"></insert> <!-- Cartoonito -->
+		<insert provider="cable_ie_mk2" source="609" target="624"></insert> <!-- Cbeebies -->
+		<insert provider="cable_ie_mk2" source="613" target="631"></insert> <!-- Disney Channel -->
+		<insert provider="cable_ie_mk2" source="604" target="632"></insert> <!-- Nickelodeon -->
+		<insert provider="cable_ie_mk2" source="608" target="633"></insert> <!-- CBBC -->
+		<insert provider="cable_ie_mk2" source="505" target="650"></insert> <!-- QVC -->
+		<insert provider="cable_ie_mk2" source="502" target="679"></insert> <!-- Fashion TV -->
+		<insert provider="sat_282_sky_irl" source="866" target="782"></insert> <!-- Sony TV -->
+		<insert provider="sat_282_sky_irl" source="839" target="784"></insert> <!-- Star Plus -->
+		<insert provider="cable_ie_mk2" source="825" target="796"></insert> <!-- TV5 -->
+		<insert provider="sat_282_sky_irl" source="867" target="798"></insert> <!-- Sony Max -->
+		<insert provider="cable_ie_mk2" source="860" target="900"></insert> <!-- Playboy -->
+		<insert provider="cable_ie_mk2" source="859" target="901"></insert> <!-- The Adult Channel -->
+		<insert provider="cable_ie_mk2" source="858" target="903"></insert> <!-- TVX -->
+	</inserts>
+	<deletes>
+		<delete target="108"></delete> <!-- Sky Atlantic HD -->
+		<delete target="153"></delete> <!-- VICELAND HD -->
+		<delete target="156"></delete> <!-- Lifetime HD -->
+		<delete target="173"></delete> <!-- Real Lives +1 -->
+		<delete target="197"></delete> <!-- Lifetime +1 -->
+		<delete target="201"></delete> <!-- Syfy -->
+		<delete target="217"></delete> <!-- Sky Atlantic +1 -->
+		<delete target="220"></delete> <!-- MTV HD -->
+		<delete target="223"></delete> <!-- Sky Atlantic -->
+		<delete target="234"></delete> <!-- TLC HD -->
+		<delete target="236"></delete> <!-- Lifetime -->
+		<delete target="239"></delete> <!-- E! HD -->
+		<delete target="245"></delete> <!-- W -->
+		<delete target="246"></delete> <!-- Dave -->
+		<delete target="247"></delete> <!-- Alibi HD -->
+		<delete target="236"></delete> <!-- Good Food -->
+		<delete target="255"></delete> <!-- Good Food HD -->
+		<delete target="263"></delete> <!-- ITV Encore -->
+		<delete target="276"></delete> <!-- AMC From BT HD -->
+		<delete target="284"></delete> <!-- VICELAND -->
+		<delete target="406"></delete> <!-- Sky Sports F1 HD -->
+		<delete target="421"></delete> <!-- Chelsea TV HD -->
+		<delete target="427"></delete> <!-- BT Sport 1 -->
+		<delete target="429"></delete> <!-- LFCTV HD -->
+		<delete target="433"></delete> <!-- BT Sport 2 -->
+		<delete target="455"></delete> <!-- LFCTV -->
+		<delete target="457"></delete> <!-- BT Sport 3 -->
+		<delete target="458"></delete> <!-- BT Sport/ESPN -->
+		<delete target="470"></delete> <!-- Ginxe Sports TV -->
+		<delete target="472"></delete> <!-- Sky Sports F1 -->
+		<delete target="493"></delete> <!-- ITV Box Office HD -->
+		<delete target="509"></delete> <!-- Fox News -->
+		<delete target="527"></delete> <!-- Nat Geo+1 -->
+		<delete target="554"></delete> <!-- Crime + Inv+1 -->
+		<delete target="555"></delete> <!-- Crime + Inv -->
+		<delete target="557"></delete> <!-- Disc.Sci+1 -->
+		<delete target="561"></delete> <!-- Sky News -->
+		<delete target="562"></delete> <!-- Animal Planet -->
+		<delete target="563"></delete> <!-- Eden -->
+		<delete target="634"></delete> <!-- Cartoon Network -->
+		<delete target="612"></delete> <!-- Disney Junior+ -->
+		<delete target="615"></delete> <!-- Nick Jr. HD -->
+		<delete target="622"></delete> <!-- Disney XD -->
+		<delete target="623"></delete> <!-- Baby TV -->
+		<delete target="628"></delete> <!-- Disney Jnr HD -->
+		<delete target="634"></delete> <!-- Cartoon Netwrk -->
+		<delete target="636"></delete> <!-- Boomerang -->
+		<delete target="637"></delete> <!-- Nick Jr. -->
+		<delete target="783"></delete> <!-- Star Life OK -->
+		<delete target="789"></delete> <!-- Zing -->
+		<delete target="790"></delete> <!-- Zee Cinema -->
+		<delete target="835"></delete> <!-- Zee Punjabi -->
+		<delete target="839"></delete> <!-- Star Plus -->
+		<delete target="865"></delete> <!-- MTV Beats -->
+		<delete target="866"></delete> <!-- Sony TV HD -->
+		<delete target="904"></delete> <!-- xratedhookups -->
+		<delete target="988"></delete> <!-- Made In Bham -->
+		<delete target="995"></delete> <!-- SkyAtlntcVIPHD -->
+		<delete target="1030"></delete> <!-- BT Sport Mosaic -->
+		<delete target="1031"></delete> <!-- BT Sport Mosaic 2 -->
+		<delete target="1050"></delete> <!-- Alibi -->
+		<delete target="1051"></delete> <!-- Anytime -->
+		<delete target="1052"></delete> <!-- Anytime -->
+		<delete target="1055"></delete> <!-- BBC Four -->
+		<delete target="1056"></delete> <!-- BBC Four HD -->
+		<delete target="1057"></delete> <!-- BBC Four -->
+		<delete target="1057"></delete> <!-- BBC One HD -->
+		<delete target="1058"></delete> <!-- BBC One Lon -->
+		<delete target="1059"></delete> <!-- BBC One NI -->
+		<delete target="1060"></delete> <!-- BBC One NI HD -->
+		<delete target="1061"></delete> <!-- BBC Two Eng -->
+		<delete target="1062"></delete> <!-- BBC Two HD -->
+		<delete target="1063"></delete> <!-- BBC Two NI -->
+		<delete target="1065"></delete> <!-- BT Sport 1 -->
+		<delete target="1066"></delete> <!-- BT Sport 1 HD -->
+		<delete target="1067"></delete> <!-- BT Sport 1 HD -->
+		<delete target="1068"></delete> <!-- BT Sport 2 -->
+		<delete target="1069"></delete> <!-- BT Sport 2 HD -->
+		<delete target="1070"></delete> <!-- BT Sport 2 HD -->
+		<delete target="1071"></delete> <!-- BT Sport 3 -->
+		<delete target="1072"></delete> <!-- BT Sport 3 HD -->
+		<delete target="1073"></delete> <!-- BT Sport 3 HD -->
+		<delete target="1074"></delete> <!-- BT Sport//ESPN -->
+		<delete target="1075"></delete> <!-- BT Sport//ESPNHD -->
+		<delete target="1076"></delete> <!-- C4 I -->
+		<delete target="1077"></delete> <!-- CBBC -->
+		<delete target="1078"></delete> <!-- CBBC HD -->
+		<delete target="1079"></delete> <!-- CBeebies -->
+		<delete target="1080"></delete> <!-- CBeebies HD -->
+		<delete target="1081"></delete> <!-- Challenge -->
+		<delete target="1082"></delete> <!-- Channel 4 -->
+		<delete target="1083"></delete> <!-- Channel 4 -->
+		<delete target="1084"></delete> <!-- Channel 4 -->
+		<delete target="1085"></delete> <!-- Channel 4 -->
+		<delete target="1086"></delete> <!-- Channel 4 -->
+		<delete target="1087"></delete> <!-- Channel 4 -->
+		<delete target="1088"></delete> <!-- Channel 4 +1 -->
+		<delete target="1089"></delete> <!-- Channel 4 +1 -->
+		<delete target="1090"></delete> <!-- Channel 4 +1 -->
+		<delete target="1091"></delete> <!-- Channel 4 +1 -->
+		<delete target="1092"></delete> <!-- Channel 4 +1 -->
+		<delete target="1093"></delete> <!-- Channel 4 +1 -->
+		<delete target="1094"></delete> <!-- ComedyCent+1 -->
+		<delete target="1097"></delete> <!-- Craft Channel -->
+		<delete target="1098"></delete> <!-- Dave -->
+		<delete target="1099"></delete> <!-- Discovery -->
+		<delete target="1100"></delete> <!-- DM Plus TV -->
+		<delete target="1101"></delete> <!-- Drama -->
+		<delete target="1102"></delete> <!-- E! -->
+		<delete target="1103"></delete> <!-- E4 -->
+		<delete target="1104"></delete> <!-- e4 -->
+		<delete target="1105"></delete> <!-- E4+1 -->
+		<delete target="1106"></delete> <!-- eir Sport 1 -->
+		<delete target="1107"></delete> <!-- eir Sport 2 -->
+		<delete target="1108"></delete> <!-- eir Sport 2 -->
+		<delete target="1111"></delete> <!-- eir Sport 2 HD -->
+		<delete target="1112"></delete> <!-- ETV1 -->
+		<delete target="1113"></delete> <!-- ETV2 -->
+		<delete target="1114"></delete> <!-- ETV5 -->
+		<delete target="1115"></delete> <!-- ETV6 -->
+		<delete target="1116"></delete> <!-- Film4 -->
+		<delete target="1117"></delete> <!-- Gold -->
+		<delete target="1118"></delete> <!-- H1Test -->
+		<delete target="1119"></delete> <!-- ID -->
+		<delete target="1120"></delete> <!-- Irish TV -->
+		<delete target="1163"></delete> <!-- More4 -->
+		<delete target="1164"></delete> <!-- MTV -->
+		<delete target="1165"></delete> <!-- MTV Music -->
+		<delete target="1166"></delete> <!-- Nick Jr Too -->
+		<delete target="1172"></delete> <!-- Pick -->
+		<delete target="1173"></delete> <!-- Really -->
+		<delete target="1177"></delete> <!-- RTE One HD -->
+		<delete target="1179"></delete> <!-- RTE2 HD -->
+		<delete target="1182"></delete> <!-- Showcase +1 -->
+		<delete target="1184"></delete> <!-- Sky Intro -->
+		<delete target="1186"></delete> <!-- Sky Living HD -->
+		<delete target="1188"></delete> <!-- Sky News -->
+		<delete target="1189"></delete> <!-- Sky News HD -->
+		<delete target="1192"></delete> <!-- Sky1 HD -->
+		<delete target="1193"></delete> <!-- Sky1 HD -->
+		<delete target="1198"></delete> <!-- Skysp ActionHD -->
+		<delete target="1199"></delete> <!-- Skysp Arena -->
+		<delete target="1202"></delete> <!-- Skysp ArenaHD -->
+		<delete target="1208"></delete> <!-- Skysp F'ball HD -->
+		<delete target="1212"></delete> <!-- Skysp F1 HD -->
+		<delete target="1217"></delete> <!-- Skysp Golf HD -->
+		<delete target="1224"></delete> <!-- Skysp News HD -->
+		<delete target="1226"></delete> <!-- Skysp News HD -->
+		<delete target="1231"></delete> <!-- Skysp PL HD -->
+		<delete target="1238"></delete> <!-- SkyspCricketHD -->
+		<delete target="1243"></delete> <!-- SkyspMainEVHD -->
+		<delete target="1244"></delete> <!-- SkyspMainEVHD -->
+		<delete target="1251"></delete> <!-- STV Edinburgh -->
+		<delete target="1255"></delete> <!-- TG4 HD -->
+		<delete target="1256"></delete> <!-- TLC -->
+		<delete target="1258"></delete> <!-- TV3 HD -->
+		<delete target="1260"></delete> <!-- Universal -->
+		<delete target="1261"></delete> <!-- UTV -->
+		<delete target="1262"></delete> <!-- UTV HD -->
+		<delete target="1263"></delete> <!-- W -->
+		<delete target="1264"></delete> <!-- (sub b +1000) -->
+		<delete target="1265"></delete> <!-- 10001 -->
+		<delete target="1266"></delete> <!-- 10002 -->
+		<delete target="1267"></delete> <!-- 10750 -->
+		<delete target="1268"></delete> <!-- 20826 -->
+		<delete target="1269"></delete> <!-- 3001 -->
+		<delete target="1270"></delete> <!-- 3002 -->
+		<delete target="1271"></delete> <!-- 3003 -->
+		<delete target="1272"></delete> <!-- 3004 -->
+		<delete target="1273"></delete> <!-- 3005 -->
+		<delete target="1275"></delete> <!-- 3e HD -->
+		<delete target="1276"></delete> <!-- 4067 -->
+		<delete target="1277"></delete> <!-- 4567 -->
+		<delete target="1278"></delete> <!-- 50342 -->
+		<delete target="1279"></delete> <!-- 50343 -->
+		<delete target="1280"></delete> <!-- 50368 -->
+		<delete target="1281"></delete> <!-- 50662 -->
+		<delete target="1282"></delete> <!-- 50663 -->
+		<delete target="1283"></delete> <!-- 50682 -->
+		<delete target="1284"></delete> <!-- 50683 -->
+		<delete target="1285"></delete> <!-- 51125 -->
+		<delete target="1286"></delete> <!-- 51126 -->
+		<delete target="1287"></delete> <!-- 52004 -->
+		<delete target="1288"></delete> <!-- 52556 -->
+		<delete target="1289"></delete> <!-- 53285 -->
+		<delete target="1290"></delete> <!-- 53305 -->
+		<delete target="1291"></delete> <!-- 55251 -->
+		<delete target="1292"></delete> <!-- 6513 -->
+		<delete target="1293"></delete> <!-- 6945 -->
+		<delete target="1294"></delete> <!-- _4109 -->
+		<delete target="1295"></delete> <!-- _4110 -->
+		<delete target="1296"></delete> <!-- EPGP1t -->
+		<delete target="1298"></delete> <!-- 6391 -->
+		<delete target="1299"></delete> <!-- BBC ALBA -->
+		<delete target="1301"></delete> <!-- STV North (Dundee) -->
+		<delete target="1302"></delete> <!-- STV Scotland East -->
+		<delete target="1303"></delete> <!-- STV North (Dundee) -->
+		<delete target="1304"></delete> <!-- STV Edinburgh -->
+		<delete target="1305"></delete> <!-- TLC -->
+		<delete target="1306"></delete> <!-- (sub b +1000) -->
+		<delete target="1307"></delete> <!-- W -->
+		<delete target="1309"></delete> <!-- ITV Encore -->
+	</deletes>
+	<sections>
+		<section number="077">Irish</section>
+		<section number="1121">ITV Regions</section>
+    </sections>
+	<hacks>
+<![CDATA[
+rename = {
+	# ITV regions
+	6210: "STV North (Grampian)",
+	6220: "STV Scottish West",
+	6325: "STV North (Dundee)",
+}
+channels_to_add_by_id = {
+	5122: 423, # eir Sport 1 (also 3601)
+	5152: 424, # eir Sport 2 HD (also 5154)
+	5123: 460, # eir Sport 2 (also 4551)
+	5421: 848, # "Notts TV"
+	5315: 865, # "Made In Bristol"
+	5536: 866, # "Made In Cardiff"
+	1016: 867, # "Made In L'Pool"
+	5537: 868, # "Made In Leeds"
+	5043: 869, # "Made In Tn&Wr"
+	1078: 870, # "Made In Bham" 
+#alternatives
+	2709: 128, # ComedyXtra
+	3705: 205, # ComedyCentral
+	1355: 415, # At the races
+	5527: 606, # Nicktoons
+	3356: 615, # Nick Jr
+	2517: 632, # Nicelodeon
+}
+broken_TSIDS = [
+	2007, #7d7 20170518
+	2011, #7db 20170425
+	2012, #7dc 20170518
+	2019, #7e3 20170518
+	2021, #7e5 20170516
+	2023, #7e7 20170331
+	2025, #7e9 20170518
+	2026, #7ea 20170425
+	2029, #7ed 20170516
+]
+# Channel renames
+for service in sorted(customised["video"].keys()):
+    if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in rename:
+        customised["video"][service]["interactive_name"] = rename[customised["video"][service]["channel_id"]]
+# Add channels by ID
+for service in sorted(customised["video"].keys()):
+    if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:
+        customised["video"][channels_to_add_by_id[customised["video"][service]["channel_id"]]] = customised["video"][service]
+        del customised["video"][service]
+# Remove encrypted services from certain transport streams (will still be in lamedb)
+for service in sorted(customised["video"].keys()):
+    if customised["video"][service]["transport_stream_id"] in broken_TSIDS and customised["video"][service]["free_ca"] != 0:
+        del customised["video"][service]
+]]>
+	</hacks>
+</custommix>
