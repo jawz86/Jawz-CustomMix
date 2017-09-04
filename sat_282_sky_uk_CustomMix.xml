@@ -102,11 +102,16 @@
 		<insert provider="cable_ie_mk2" source="131" target="208"></insert> <!-- ITV 3 -->
 		<insert provider="cable_ie_mk2" source="114" target="221"></insert> <!-- Sky One -->
 		<insert provider="cable_ie_mk2" source="124" target="222"></insert> <!-- Sky Living -->
+		<insert provider="cable_ie_mk2" source="102" target="224"></insert> <!-- RTE2 -->
 		<insert provider="cable_ie_mk2" source="132" target="225"></insert> <!-- ITV 4 -->
 		<insert provider="cable_ie_mk2" source="111" target="227"></insert> <!-- Channel 4 -->
 		<insert provider="cable_ie_mk2" source="118" target="231"></insert> <!-- More4 -->
+		<insert provider="cable_ie_mk2" source="103" target="273"></insert> <!-- TV3 -->
+		<insert provider="cable_ie_mk2" source="101" target="277"></insert> <!-- RTE One -->
+		<insert provider="cable_ie_mk2" source="104" target="281"></insert> <!-- TG4 -->
 		<insert provider="cable_ie_mk2" source="141" target="286"></insert> <!-- Sky Arts -->
 		<insert provider="cable_ie_mk2" source="400" target="287"></insert> <!-- Sky Sports Mix -->
+		<insert provider="cable_ie_mk2" source="105" target="288"></insert> <!-- 3e -->
 		<insert provider="cable_ie_mk2" source="321" target="302"></insert> <!-- Sky Premiere +1 -->
 		<insert provider="cable_ie_mk2" source="320" target="314"></insert> <!-- Sky Premiere -->
 		<insert provider="cable_ie_mk2" source="324" target="316"></insert> <!-- FilmFour +1 -->
@@ -157,7 +162,7 @@
 		<insert provider="cable_ie_mk2" source="204" target="505"></insert> <!-- CNBC Europe -->
 		<insert provider="cable_ie_mk2" source="203" target="508"></insert> <!-- Euronews -->
 		<insert provider="cable_ie_mk2" source="202" target="516"></insert> <!-- Sky News -->
-		<insert provider="cable_ie_mk2" source="241" target="518"></insert> <!-- Russia Today -->
+		<insert provider="cable_ie_mk2" source="241" target="512"></insert> <!-- Russia Today -->
 		<insert provider="cable_ie_mk2" source="209" target="521"></insert> <!-- Disc channel +1 -->
 		<insert provider="cable_ie_mk2" source="156" target="524"></insert> <!-- Discovery Turbo -->
 		<insert provider="cable_ie_mk2" source="211" target="525"></insert> <!-- Disc Science -->
@@ -168,6 +173,8 @@
 		<insert provider="cable_ie_mk2" source="217" target="545"></insert> <!-- History Channel -->
 		<insert provider="cable_ie_mk2" source="202" target="561"></insert> <!-- Discovery -->
 		<insert provider="cable_ie_mk2" source="201" target="570"></insert> <!-- BBC News 24 -->
+		<insert provider="cable_ie_mk2" source="207" target="574"></insert> <!-- Oireachtas TV -->
+		<insert provider="cable_ie_mk2" source="200" target="578"></insert> <!-- RTE News Now -->
 		<insert provider="cable_ie_mk2" source="816" target="580"></insert> <!-- The God Channel -->
 		<insert provider="cable_ie_mk2" source="815" target="589"></insert> <!-- EWTN -->
 		<insert provider="cable_ie_mk2" source="620" target="601"></insert> <!-- Cartoon Network -->
@@ -185,31 +192,32 @@
 		<insert provider="cable_ie_mk2" source="613" target="631"></insert> <!-- Disney Channel -->
 		<insert provider="cable_ie_mk2" source="604" target="632"></insert> <!-- Nickelodeon -->
 		<insert provider="cable_ie_mk2" source="505" target="650"></insert> <!-- QVC -->
-		<insert provider="cable_ie_mk2" source="502" target="679"></insert> <!-- Fashion TV -->
 		<insert provider="cable_ie_mk2" source="825" target="796"></insert> <!-- TV5 -->
 		<insert provider="cable_ie_mk2" source="860" target="900"></insert> <!-- Playboy -->
 		<insert provider="cable_ie_mk2" source="859" target="901"></insert> <!-- The Adult Channel -->
 		<insert provider="cable_ie_mk2" source="858" target="903"></insert> <!-- TVX -->
 		<!-- Adds Irish cable channels not available on sat -->
-		<insert provider="cable_ie_mk2" source="135" target="077"></insert> <!-- RTE One HD -->
-		<insert provider="cable_ie_mk2" source="136" target="078"></insert> <!-- RTE2 HD -->
-		<insert provider="cable_ie_mk2" source="150" target="079"></insert> <!-- TV3 HD -->
-		<insert provider="cable_ie_mk2" source="137" target="080"></insert> <!-- TG4 HD -->
-		<insert provider="cable_ie_mk2" source="149" target="081"></insert> <!-- 3e HD -->
-		<insert provider="cable_ie_mk2" source="107" target="082"></insert> <!-- RTE One+1 -->
-		<insert provider="cable_ie_mk2" source="148" target="083"></insert> <!-- Be3 HD -->
-		<insert provider="cable_ie_mk2" source="110" target="084"></insert> <!-- TV3+1 -->
-		<insert provider="cable_ie_mk2" source="139" target="085"></insert> <!-- BBC 1 HD -->
-		<insert provider="cable_ie_mk2" source="140" target="086"></insert> <!-- BBC Two HD -->
-		<insert provider="cable_ie_mk2" source="200" target="087"></insert> <!-- RTE News Now -->
-		<insert provider="cable_ie_mk2" source="207" target="088"></insert> <!-- Oireachtas TV -->
-		<insert provider="cable_ie_mk2" source="206" target="089"></insert> <!-- BBC World -->
-		<insert provider="cable_ie_mk2" source="802" target="090"></insert> <!-- DCTV -->
-		<insert provider="cable_ie_mk2" source="803" target="091"></insert> <!-- CCTV -->
+		<insert provider="cable_ie_mk2" source="135" target="088"></insert> <!-- RTE One HD -->
+		<insert provider="cable_ie_mk2" source="136" target="089"></insert> <!-- RTE2 HD -->
+		<insert provider="cable_ie_mk2" source="150" target="090"></insert> <!-- TV3 HD -->
+		<insert provider="cable_ie_mk2" source="137" target="091"></insert> <!-- TG4 HD -->
+		<insert provider="cable_ie_mk2" source="149" target="092"></insert> <!-- 3e HD -->
+		<insert provider="cable_ie_mk2" source="107" target="093"></insert> <!-- RTE One+1 -->
+		<insert provider="cable_ie_mk2" source="148" target="094"></insert> <!-- Be3 HD -->
+		<insert provider="cable_ie_mk2" source="110" target="095"></insert> <!-- TV3+1 -->
+		<insert provider="cable_ie_mk2" source="139" target="096"></insert> <!-- BBC 1 HD -->
+		<insert provider="cable_ie_mk2" source="140" target="097"></insert> <!-- BBC Two HD -->
+        <insert provider="cable_ie_mk2" source="106" target="098"></insert> <!-- Be3 -->
+		<insert provider="cable_ie_mk2" source="108" target="099"></insert> <!-- BBC 1 -->
+        <insert provider="cable_ie_mk2" source="109" target="100"></insert> <!-- BBC Two -->
+		<insert provider="cable_ie_mk2" source="206" target="573"></insert> <!-- BBC World -->
+		<insert provider="cable_ie_mk2" source="502" target="679"></insert> <!-- Fashion TV -->
+		<insert provider="cable_ie_mk2" source="802" target="789"></insert> <!-- DCTV -->
+		<insert provider="cable_ie_mk2" source="803" target="790"></insert> <!-- CCTV -->
 	</inserts>
 	<sections>
 		<!-- Adds Irish channels and ITV regions bouquets -->
-		<section number="077">Irish Channels</section>
+		<section number="088">Irish Channels</section>
 		<section number="1122">ITV Regions</section>
     </sections>
 	<deletes>
@@ -219,10 +227,12 @@
 		<!-- Deletes duplicate SD channel -->
 		<delete target="220"></delete> <!-- MTV -->
 		<delete target="234"></delete> <!-- TLC -->
+		<delete target="239"></delete> <!-- E! -->
 		<delete target="245"></delete> <!-- W -->
 		<delete target="246"></delete> <!-- Dave -->
 		<delete target="247"></delete> <!-- Alibi -->
 		<delete target="255"></delete> <!-- Good Food -->
+		<delete target="263"></delete> <!-- ITV Encore -->
 		<delete target="276"></delete> <!-- AMC From BT -->
 		<delete target="427"></delete> <!-- BT Sport 1 -->
 		<delete target="433"></delete> <!-- BT Sport 2 -->
@@ -233,6 +243,7 @@
 		<delete target="563"></delete> <!-- Eden -->
 		<delete target="634"></delete> <!-- Cartoon Netwrk -->
 		<delete target="839"></delete> <!-- Star Plus -->
+		<delete target="860"></delete> <!-- Colors -->
 		<delete target="866"></delete> <!-- Sony TV -->
 		<delete target="995"></delete> <!-- Sky AtlntcVIPHD -->
 		<delete target="1030"></delete> <!-- BT Sport Mosaic -->
