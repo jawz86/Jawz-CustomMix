@@ -391,8 +391,11 @@
 		<delete target="1301"></delete><!-- _4109 -->
 		<delete target="1302"></delete><!-- _4110 -->
 		<delete target="1303"></delete><!-- EPGPIT -->
+		<delete target="1304"></delete><!-- _4110 -->
 		<delete target="1305"></delete><!-- 6391 -->
 		<delete target="1306"></delete><!-- BBC ALBA -->
+		<delete target="1308"></delete><!-- 6391 -->
+		<delete target="1309"></delete><!-- BBC ALBA -->
 	</deletes>
 	<hacks>
 	<![CDATA[
