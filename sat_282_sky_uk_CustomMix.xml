@@ -441,6 +441,44 @@ for service in sorted(customised["video"].keys()):
 for service in sorted(customised["video"].keys()):
     if customised["video"][service]["transport_stream_id"] in broken_TSIDS and customised["video"][service]["free_ca"] != 0:
         del customised["video"][service]
-]]>	
+]]>
+	<instructions>
+<![CDATA[
+
+----------------------------------------------------------
+
+ABM Providers Setup screen:
+
+Sky UK: Yes
+Sky UK: area - London HD (You can use any HD area)
+Sky UK: FTA only - No
+Sky UK: generate main bouquets - Yes (all channels)
+Sky UK: generate sections bouquets - yes
+Sky UK: generate HD bouquet - yes
+Sky UK: generate FTA bouquet - Optional
+Sky UK: generate FTA HD bouquet - Optional
+Sky UK: swap channels - Yes
+
+Virgin IE: Yes
+Virgin IE: area - set to YOUR area
+Virgin IE: FTA only - No
+Virgin IE: generate main bouquet - No
+Virgin IE: generate sections bouquets - No
+Virgin IE: generate HD bouquets - No
+Virgin IE: generate FTA bouquets - No
+Virgin IE: generate FTA HD bouquet - No
+
+CustomMix file goes in /usr/lib/enigma2/python/Plugins/SystemPlugins/AutoBouquetsMaker/custom
+
+----------------------------------------------------------
+
+ABM configure screen:
+
+Include 'not indexed' channels - Yes
+
+----------------------------------------------------------
+
+]]>
+	</instructions>
 	</hacks>
 </custommix>
