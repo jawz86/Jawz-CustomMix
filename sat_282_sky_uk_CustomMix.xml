@@ -1,5 +1,5 @@
 <!-- Jawz Custom mix xml file-->
-<!-- DATE 20170906 -->
+<!-- DATE 20170912 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -220,12 +220,13 @@
 	<sections>
 		<!-- Adds Irish channels and ITV regions bouquets -->
 		<section number="088">Irish Channels</section>
-		<section number="1122">ITV Regions</section>
+		<section number="1122">ITV Regions </section>
     </sections>
 	<deletes>
 		<!-- Deletes non-working sat HD channels that are not available on cable -->
 		<delete target="406"></delete> <!-- Skysp F1 HD -->
 		<delete target="421"></delete> <!-- Chelsea TV HD -->
+		<delete target="493"></delete> <!-- ITV Box Office HD -->
 		<!-- Deletes duplicate SD channel -->
 		<delete target="220"></delete> <!-- MTV -->
 		<delete target="234"></delete> <!-- TLC -->
@@ -377,27 +378,28 @@
 		<delete target="1287"></delete><!-- 50465 -->
 		<delete target="1288"></delete><!-- 50470 -->
 		<delete target="1289"></delete><!-- 50475 -->
-		<delete target="1290"></delete><!-- 50662 -->
-		<delete target="1291"></delete><!-- 50663 -->
-		<delete target="1292"></delete><!-- 50682 -->
-		<delete target="1293"></delete><!-- 50683 -->
-		<delete target="1294"></delete><!-- 51125 -->
-		<delete target="1295"></delete><!-- 51126 -->
-		<delete target="1296"></delete><!-- 53285 -->
-		<delete target="1297"></delete><!-- 53305 -->
-		<delete target="1298"></delete><!-- 55251 -->
-		<delete target="1299"></delete><!-- 6513 -->
-		<delete target="1300"></delete><!-- 6945 -->
-		<delete target="1301"></delete><!-- _4109 -->
-		<delete target="1302"></delete><!-- _4110 -->
-		<delete target="1303"></delete><!-- EPGPIT -->
-		<delete target="1304"></delete><!-- _4110 -->
-		<delete target="1305"></delete><!-- 6391 -->
-		<delete target="1306"></delete><!-- BBC ALBA -->
-		<delete target="1308"></delete><!-- 6391 -->
-		<delete target="1309"></delete><!-- BBC ALBA -->
+		<delete target="1290"></delete><!-- 50480 -->
+		<delete target="1291"></delete><!-- 50485 -->
+		<delete target="1292"></delete><!-- 50490 -->
+		<delete target="1293"></delete><!-- 50495 -->
+		<delete target="1294"></delete><!-- 50662 -->
+		<delete target="1295"></delete><!-- 50663 -->
+		<delete target="1296"></delete><!-- 50682 -->
+		<delete target="1297"></delete><!-- 50683 -->
+		<delete target="1298"></delete><!-- 51125 -->
+		<delete target="1299"></delete><!-- 51126 -->
+		<delete target="1300"></delete><!-- 53285 -->
+		<delete target="1301"></delete><!-- 53305 -->
+		<delete target="1302"></delete><!-- 55251 -->
+		<delete target="1303"></delete><!-- 6513 -->
+		<delete target="1304"></delete><!-- 6945 -->
+		<delete target="1305"></delete><!-- _4109 -->
+		<delete target="1306"></delete><!-- _4110 -->
+		<delete target="1307"></delete><!-- EPGP1T -->
+		<delete target="1309"></delete><!-- 6391 -->
+		<delete target="1310"></delete><!-- BBC ALBA -->
 	</deletes>
-	<hacks>
+		<hacks>
 	<![CDATA[
 rename = {
     # ITV regions
@@ -444,11 +446,9 @@ for service in sorted(customised["video"].keys()):
 ]]>
 	<instructions>
 <![CDATA[
-
 ----------------------------------------------------------
-
 ABM Providers Setup screen:
-
+Sky ROI: No
 Sky UK: Yes
 Sky UK: area - London HD (You can use any HD area)
 Sky UK: FTA only - No
@@ -458,7 +458,6 @@ Sky UK: generate HD bouquet - yes
 Sky UK: generate FTA bouquet - Optional
 Sky UK: generate FTA HD bouquet - Optional
 Sky UK: swap channels - Yes
-
 Virgin IE: Yes
 Virgin IE: area - set to YOUR area
 Virgin IE: FTA only - No
@@ -467,17 +466,11 @@ Virgin IE: generate sections bouquets - No
 Virgin IE: generate HD bouquets - No
 Virgin IE: generate FTA bouquets - No
 Virgin IE: generate FTA HD bouquet - No
-
 CustomMix file goes in /usr/lib/enigma2/python/Plugins/SystemPlugins/AutoBouquetsMaker/custom
-
 ----------------------------------------------------------
-
 ABM configure screen:
-
 Include 'not indexed' channels - Yes
-
 ----------------------------------------------------------
-
 ]]>
 	</instructions>
 	</hacks>
