@@ -1,5 +1,5 @@
 <!-- Jawz Custom mix xml file-->
-<!-- DATE 20170912 -->
+<!-- DATE 20170917 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -199,34 +199,30 @@
 		<insert provider="cable_ie_mk2" source="859" target="901"></insert> <!-- The Adult Channel -->
 		<insert provider="cable_ie_mk2" source="858" target="903"></insert> <!-- TVX -->
 		<!-- Adds Irish cable channels not available on sat -->
-		<insert provider="cable_ie_mk2" source="135" target="088"></insert> <!-- RTE One HD -->
-		<insert provider="cable_ie_mk2" source="136" target="089"></insert> <!-- RTE2 HD -->
-		<insert provider="cable_ie_mk2" source="150" target="090"></insert> <!-- TV3 HD -->
-		<insert provider="cable_ie_mk2" source="137" target="091"></insert> <!-- TG4 HD -->
-		<insert provider="cable_ie_mk2" source="149" target="092"></insert> <!-- 3e HD -->
-		<insert provider="cable_ie_mk2" source="107" target="093"></insert> <!-- RTE One+1 -->
-		<insert provider="cable_ie_mk2" source="148" target="094"></insert> <!-- Be3 HD -->
-		<insert provider="cable_ie_mk2" source="110" target="095"></insert> <!-- TV3+1 -->
-		<insert provider="cable_ie_mk2" source="139" target="096"></insert> <!-- BBC 1 HD -->
-		<insert provider="cable_ie_mk2" source="140" target="097"></insert> <!-- BBC Two HD -->
-		<insert provider="cable_ie_mk2" source="106" target="098"></insert> <!-- Be3 -->
-		<insert provider="cable_ie_mk2" source="108" target="099"></insert> <!-- BBC 1 -->
-		<insert provider="cable_ie_mk2" source="109" target="100"></insert> <!-- BBC Two -->
+		<insert provider="cable_ie_mk2" source="135" target="092"></insert> <!-- RTE One HD -->
+		<insert provider="cable_ie_mk2" source="136" target="093"></insert> <!-- RTE2 HD -->
+		<insert provider="cable_ie_mk2" source="150" target="094"></insert> <!-- TV3 HD -->
+		<insert provider="cable_ie_mk2" source="137" target="095"></insert> <!-- TG4 HD -->
+		<insert provider="cable_ie_mk2" source="149" target="096"></insert> <!-- 3e HD -->
+		<insert provider="cable_ie_mk2" source="148" target="097"></insert> <!-- Be3 HD -->
+		<insert provider="cable_ie_mk2" source="107" target="098"></insert> <!-- RTE One+1 -->
+		<insert provider="cable_ie_mk2" source="110" target="099"></insert> <!-- TV3+1 -->
+		<insert provider="cable_ie_mk2" source="106" target="100"></insert> <!-- Be3 -->
 		<insert provider="cable_ie_mk2" source="206" target="573"></insert> <!-- BBC World -->
 		<insert provider="cable_ie_mk2" source="502" target="679"></insert> <!-- Fashion TV -->
 		<insert provider="cable_ie_mk2" source="802" target="789"></insert> <!-- DCTV -->
 		<insert provider="cable_ie_mk2" source="803" target="790"></insert> <!-- CCTV -->
 	</inserts>
 	<sections>
-		<!-- Adds Irish channels and ITV regions bouquets -->
+		<!-- Adds Irish channels bouquet -->
 		<section number="088">Irish Channels</section>
-		<section number="1122">ITV Regions </section>
     </sections>
 	<deletes>
 		<!-- Deletes non-working sat HD channels that are not available on cable -->
 		<delete target="406"></delete> <!-- Skysp F1 HD -->
 		<delete target="421"></delete> <!-- Chelsea TV HD -->
 		<delete target="493"></delete> <!-- ITV Box Office HD -->
+		<delete target="995"></delete> <!-- Sky AtlntcVIP HD -->
 		<!-- Deletes duplicate SD channel -->
 		<delete target="220"></delete> <!-- MTV -->
 		<delete target="234"></delete> <!-- TLC -->
@@ -248,161 +244,14 @@
 		<delete target="839"></delete> <!-- Star Plus -->
 		<delete target="860"></delete> <!-- Colors -->
 		<delete target="866"></delete> <!-- Sony TV -->
-		<delete target="995"></delete> <!-- Sky AtlntcVIPHD -->
 		<delete target="1030"></delete> <!-- BT Sport Mosaic -->
 		<delete target="1031"></delete> <!-- BT Sport Mosaic 2 -->
-		<!-- Deletes unnecessary 'not Indexed' channels -->
-		<delete target="1050"></delete> <!-- alibi -->
-		<delete target="1051"></delete> <!-- Anytime -->
-		<delete target="1052"></delete> <!-- Anytime -->
-		<delete target="1053"></delete> <!-- At The Races -->
-		<delete target="1055"></delete> <!-- BBC Four -->
-		<delete target="1056"></delete> <!-- BBC Four HD -->
-		<delete target="1057"></delete> <!-- BBC One HD -->
-		<delete target="1058"></delete> <!-- BBC One Lon -->
-		<delete target="1059"></delete> <!-- BBC One NI -->
-		<delete target="1060"></delete> <!-- BBC One NI HD -->
-		<delete target="1061"></delete> <!-- BBC One Eng -->
-		<delete target="1062"></delete> <!-- BBC Two HD -->
-		<delete target="1063"></delete> <!-- BBC Two NI -->
-		<delete target="1065"></delete> <!-- BT Sport 1 -->
-		<delete target="1066"></delete> <!-- BT Sport 1 HD -->
-		<delete target="1067"></delete> <!-- BT Sport 1 HD -->
-		<delete target="1068"></delete> <!-- BT Sport 2 -->
-		<delete target="1069"></delete> <!-- BT Sport 2 HD -->
-		<delete target="1070"></delete> <!-- BT Sport 2 HD -->
-		<delete target="1071"></delete> <!-- BT Sport 3 -->
-		<delete target="1072"></delete> <!-- BT Sport 3 HD -->
-		<delete target="1073"></delete> <!-- BT Sport 3 HD -->
-		<delete target="1074"></delete> <!-- BT Sport//ESPN -->
-		<delete target="1075"></delete> <!-- BT Spt//ESPNHD -->
-		<delete target="1076"></delete> <!-- c4 l -->
-		<delete target="1077"></delete><!-- CBBC -->
-		<delete target="1078"></delete><!-- CBBC HD -->
-		<delete target="1079"></delete><!-- CBeebies -->
-		<delete target="1080"></delete><!-- CBeebies HD -->
-		<delete target="1081"></delete><!-- Challenge -->
-		<delete target="1082"></delete><!-- Channel 4 -->
-		<delete target="1083"></delete><!-- Channel 4 -->
-		<delete target="1084"></delete><!-- Channel 4 -->
-		<delete target="1085"></delete><!-- Channel 4 -->
-		<delete target="1086"></delete><!-- Channel 4 -->
-		<delete target="1087"></delete><!-- Channel 4 -->
-		<delete target="1088"></delete><!-- Channel 4 +1 -->
-		<delete target="1089"></delete><!-- Channel 4 +1 -->
-		<delete target="1090"></delete><!-- Channel 4 +1 -->
-		<delete target="1091"></delete><!-- Channel 4 +1 -->
-		<delete target="1092"></delete><!-- Channel 4 +1 -->
-		<delete target="1093"></delete><!-- Channel 4 +1 -->
-		<delete target="1094"></delete><!-- ComedyCen +1 -->
-		<delete target="1095"></delete><!-- ComedyCentral -->
-		<delete target="1096"></delete><!-- ComedyXtra -->
-		<delete target="1097"></delete><!-- Craft Channel -->
-		<delete target="1098"></delete><!-- Dave -->
-		<delete target="1099"></delete><!-- Discovery -->
-		<delete target="1100"></delete><!-- DM Plus TV -->
-		<delete target="1101"></delete><!-- Drama -->
-		<delete target="1102"></delete><!-- E! -->
-		<delete target="1103"></delete><!-- E4 -->
-		<delete target="1104"></delete><!-- e4 -->
-		<delete target="1105"></delete><!-- E4 +1 -->
-		<delete target="1106"></delete><!-- eir Sport 1 -->
-		<delete target="1108"></delete><!-- eir Sport 2 -->
-		<delete target="1111"></delete><!-- eir Sport 2 HD -->
-		<delete target="1112"></delete><!-- ETV1 -->
-		<delete target="1113"></delete><!-- ETV2 -->
-		<delete target="1114"></delete><!-- ETV5 -->
-		<delete target="1115"></delete><!-- ETV6 -->
-		<delete target="1116"></delete><!-- Film4 -->
-		<delete target="1118"></delete><!-- GOLD -->
-		<delete target="1119"></delete><!-- H1Test -->
-		<delete target="1120"></delete><!-- ID -->
-		<delete target="1121"></delete><!-- Irish TV -->
-		<delete target="1164"></delete><!-- More4 -->
-		<delete target="1165"></delete><!-- MTV -->
-		<delete target="1166"></delete><!-- MTV MUSIC -->
-		<delete target="1167"></delete><!-- Nick Jr Too -->
-		<delete target="1168"></delete><!-- Nick Jr. -->
-		<delete target="1169"></delete><!-- Nickelodeon -->
-		<delete target="1170"></delete><!-- Nicktoons -->
-		<delete target="1173"></delete><!-- Pick -->
-		<delete target="1174"></delete><!-- Really -->
-		<delete target="1178"></delete><!-- RTE One HD -->
-		<delete target="1180"></delete><!-- RTE2 HD -->
-		<delete target="1184"></delete><!-- Sky Intro -->
-		<delete target="1186"></delete><!-- Sky Living HD -->
-		<delete target="1188"></delete><!-- Sky News -->
-		<delete target="1189"></delete><!-- Sky News HD -->
-		<delete target="1192"></delete><!-- Sky1 HD -->
-		<delete target="1193"></delete><!-- Sky1 HD -->
-		<delete target="1198"></delete><!-- SkySp Action HD -->
-		<delete target="1199"></delete><!-- SkySp Arena -->
-		<delete target="1202"></delete><!-- SkySp Arena HD -->
-		<delete target="1208"></delete><!-- SkySp F'ball HD -->
-		<delete target="1212"></delete><!-- SkySp F1 HD -->
-		<delete target="1217"></delete><!-- SkySp Golf HD -->
-		<delete target="1224"></delete><!-- SkySp News HD -->
-		<delete target="1226"></delete><!-- SkySp News HD -->
-		<delete target="1231"></delete><!-- SkySp PL HD -->
-		<delete target="1238"></delete><!-- SkySp Cricket HD -->
-		<delete target="1243"></delete><!-- SkySp MainEv HD -->
-		<delete target="1244"></delete><!-- SkySp MainEv HD -->
-		<delete target="1251"></delete><!-- STV Edinburgh -->
-		<delete target="1255"></delete><!-- TG4 HD -->
-		<delete target="1256"></delete><!-- TLC -->
-		<delete target="1258"></delete><!-- TV3 HD -->
-		<delete target="1260"></delete><!-- Universal -->
-		<delete target="1263"></delete><!-- W -->
-		<delete target="1264"></delete><!-- (sub b +1000) -->
-		<delete target="1265"></delete><!-- 10001 -->
-		<delete target="1266"></delete><!-- 10002 -->
-		<delete target="1267"></delete><!-- 10750 -->
-		<delete target="1268"></delete><!-- 20826 -->
-		<delete target="1269"></delete><!-- 3001 -->
-		<delete target="1270"></delete><!-- 3002 -->
-		<delete target="1271"></delete><!-- 3003 -->
-		<delete target="1272"></delete><!-- 3004 -->
-		<delete target="1273"></delete><!-- 3005 -->
-		<delete target="1275"></delete><!-- 3e HD -->
-		<delete target="1276"></delete><!-- 4067 -->
-		<delete target="1277"></delete><!-- 4567 -->
-		<delete target="1278"></delete><!-- 50342 -->
-		<delete target="1279"></delete><!-- 50343 -->
-		<delete target="1280"></delete><!-- 50368 -->
-		<delete target="1281"></delete><!-- 50415 -->
-		<delete target="1282"></delete><!-- 50440 -->
-		<delete target="1283"></delete><!-- 50445 -->
-		<delete target="1284"></delete><!-- 50450 -->
-		<delete target="1285"></delete><!-- 50445 -->
-		<delete target="1286"></delete><!-- 50460 -->
-		<delete target="1287"></delete><!-- 50465 -->
-		<delete target="1288"></delete><!-- 50470 -->
-		<delete target="1289"></delete><!-- 50475 -->
-		<delete target="1290"></delete><!-- 50480 -->
-		<delete target="1291"></delete><!-- 50485 -->
-		<delete target="1292"></delete><!-- 50490 -->
-		<delete target="1293"></delete><!-- 50495 -->
-		<delete target="1294"></delete><!-- 50662 -->
-		<delete target="1295"></delete><!-- 50663 -->
-		<delete target="1296"></delete><!-- 50682 -->
-		<delete target="1297"></delete><!-- 50683 -->
-		<delete target="1298"></delete><!-- 51125 -->
-		<delete target="1299"></delete><!-- 51126 -->
-		<delete target="1300"></delete><!-- 53285 -->
-		<delete target="1301"></delete><!-- 53305 -->
-		<delete target="1302"></delete><!-- 55251 -->
-		<delete target="1303"></delete><!-- 6513 -->
-		<delete target="1304"></delete><!-- 6945 -->
-		<delete target="1305"></delete><!-- _4109 -->
-		<delete target="1306"></delete><!-- _4110 -->
-		<delete target="1307"></delete><!-- EPGP1T -->
-		<delete target="1309"></delete><!-- 6391 -->
-		<delete target="1310"></delete><!-- BBC ALBA -->
 	</deletes>
 	<hacks>
 	<![CDATA[
 rename = {
     # ITV regions
+	5070: "STV 2",
     6210: "STV North (Grampian)",
     6220: "STV Scottish West",
     6325: "STV North (Dundee)",
@@ -443,6 +292,60 @@ for service in sorted(customised["video"].keys()):
 for service in sorted(customised["video"].keys()):
     if customised["video"][service]["transport_stream_id"] in broken_TSIDS and customised["video"][service]["free_ca"] != 0:
         del customised["video"][service]
+
+# Add ITV regions Bouquet		
+ITVs = []
+ITVsPlusOne = []
+rest = []
+last_section = max(sections.keys())
+last_section_name = sections[last_section]
+
+for service in sorted(services["sat_282_sky_uk"]["video"].keys()):
+	if service in range(last_section, 1450) or service in [103, 133, 178]:
+		# ITV regions
+		if 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [103,178] or (service in range(last_section, 1450) and '+1' not in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
+			ITVs.append(services["sat_282_sky_uk"]["video"][service])
+			
+		# ITV +1 regions
+		elif 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [133] or (service in range(last_section, 1450) and '+1' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
+			ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
+		
+		else:
+			rest.append(services["sat_282_sky_uk"]["video"][service])
+
+i = last_section
+sections[i] = "ITV Regions"
+
+sort_list = []
+for x in ITVs:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+			
+sort_list = []
+for x in ITVsPlusOne:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+		
+sections[i] = last_section_name	
+sort_list = []
+for x in rest:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['service_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+
+# Delete Not-Indexed sections	
+del sections[1096]
+for number in customised["video"].keys():
+	if number > 1095:
+		del customised["video"][number]
 ]]>
 	<instructions>
 <![CDATA[
