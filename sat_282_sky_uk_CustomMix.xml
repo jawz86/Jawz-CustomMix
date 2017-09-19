@@ -1,5 +1,5 @@
 <!-- Jawz Custom mix xml file-->
-<!-- DATE 20170918 -->
+<!-- DATE 20170919 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -223,6 +223,7 @@
 		<delete target="421"></delete> <!-- Chelsea TV HD -->
 		<delete target="493"></delete> <!-- ITV Box Office HD -->
 		<delete target="995"></delete> <!-- Sky AtlntcVIP HD -->
+		<delete target="998"></delete> <!-- Sky Intro HD -->
 		<!-- Deletes duplicate SD channel -->
 		<delete target="220"></delete> <!-- MTV -->
 		<delete target="234"></delete> <!-- TLC -->
@@ -345,7 +346,18 @@ for service in sort_list:
 del sections[1096]
 for number in customised["video"].keys():
 	if number > 1095:
+
 		del customised["video"][number]
+
+# Adds HD Bouquet to bottom of bouquets
+if customised["video"]: # check not zero length
+	LCN_list = sorted(customised["video"].keys()) # get LCNs sorted low to high
+	next_slot = LCN_list[-1]+1 # get last LCN +1
+	sections[next_slot] = "HD Channels" # create HD section and name it
+	for lcn in LCN_list: # run through LCNs in order
+		if customised["video"][lcn]["service_type"] in DvbScanner.HD_ALLOWED_TYPES: # if this channel is HD
+			customised["video"][next_slot] = customised["video"][lcn] # add to HD section
+			next_slot += 1 # bump slot
 ]]>
 	<instructions>
 <![CDATA[
@@ -360,7 +372,7 @@ Sky UK: area - London HD (You can use any HD area)
 Sky UK: FTA only - No
 Sky UK: generate main bouquets - Yes (all channels)
 Sky UK: generate sections bouquets - yes
-Sky UK: generate HD bouquet - yes
+Sky UK: generate HD bouquet - No
 Sky UK: generate FTA bouquet - Optional
 Sky UK: generate FTA HD bouquet - Optional
 Sky UK: swap channels - Yes
@@ -384,6 +396,12 @@ Include 'not indexed' channels - Yes
 
 ----------------------------------------------------------
 
+CREDITS
+
+I would like to thank the following people in no particular order:
+Huevos, Abu Baniaz, Dsayers, Wooshman, Rossi, doglover and everybody involved in the ABM team over at http://www.world-of-satellite.com. Without all of these wonderful people this file would not exist nor would the Irish VM provider or EPG exist. These are the people that did the hard work, I just asked the questions and followed their advice.
+
+----------------------------------------------------------
 ]]>
 	</instructions>
 	</hacks>
