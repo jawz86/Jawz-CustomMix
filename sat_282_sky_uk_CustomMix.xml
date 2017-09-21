@@ -198,15 +198,15 @@
 		<insert provider="cable_ie_mk2" source="859" target="901"></insert> <!-- The Adult Channel -->
 		<insert provider="cable_ie_mk2" source="858" target="903"></insert> <!-- TVX -->
 		<!-- Adds Irish virgin channels not available on sky -->
-		<insert provider="cable_ie_mk2" source="135" target="092"></insert> <!-- RTE One HD -->
-		<insert provider="cable_ie_mk2" source="136" target="093"></insert> <!-- RTE2 HD -->
-		<insert provider="cable_ie_mk2" source="150" target="094"></insert> <!-- TV3 HD -->
-		<insert provider="cable_ie_mk2" source="137" target="095"></insert> <!-- TG4 HD -->
-		<insert provider="cable_ie_mk2" source="149" target="096"></insert> <!-- 3e HD -->
-		<insert provider="cable_ie_mk2" source="148" target="097"></insert> <!-- Be3 HD -->
-		<insert provider="cable_ie_mk2" source="107" target="098"></insert> <!-- RTE One+1 -->
-		<insert provider="cable_ie_mk2" source="110" target="099"></insert> <!-- TV3+1 -->
-		<insert provider="cable_ie_mk2" source="106" target="100"></insert> <!-- Be3 -->
+		<insert provider="cable_ie_mk2" source="135" target="1"></insert> <!-- RTE One HD -->
+		<insert provider="cable_ie_mk2" source="136" target="2"></insert> <!-- RTE2 HD -->
+		<insert provider="cable_ie_mk2" source="150" target="3"></insert> <!-- TV3 HD -->
+		<insert provider="cable_ie_mk2" source="137" target="4"></insert> <!-- TG4 HD -->
+		<insert provider="cable_ie_mk2" source="149" target="5"></insert> <!-- 3e HD -->
+		<insert provider="cable_ie_mk2" source="148" target="6"></insert> <!-- Be3 HD -->
+		<insert provider="cable_ie_mk2" source="107" target="7"></insert> <!-- RTE One+1 -->
+		<insert provider="cable_ie_mk2" source="110" target="8"></insert> <!-- TV3+1 -->
+		<insert provider="cable_ie_mk2" source="106" target="289"></insert> <!-- Be3 -->
 		<insert provider="cable_ie_mk2" source="206" target="573"></insert> <!-- BBC World -->
 		<insert provider="cable_ie_mk2" source="502" target="679"></insert> <!-- Fashion TV -->
 		<insert provider="cable_ie_mk2" source="802" target="789"></insert> <!-- DCTV -->
@@ -214,7 +214,7 @@
 	</inserts>
 	<sections>
 		<!-- Adds Irish channels bouquet -->
-		<section number="088">Irish Channels</section>
+		<section number="1">Irish Channels</section>
     </sections>
 	<deletes>
 		<!-- Deletes non-working sky HD channels that are not available on virgin -->
