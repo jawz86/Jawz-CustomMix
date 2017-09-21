@@ -1,8 +1,8 @@
 <!-- Jawz Custom mix xml file-->
-<!-- DATE 20170919 -->
+<!-- DATE 20170921 -->
 <custommix>
 	<inserts>
-		<!-- Swap HD channels that don't clear on sat and not available on cable -->
+		<!-- Swap HD channels that don't clear on sky and not available on virgin -->
 		<insert provider="sat_282_sky_uk" source="223" target="108"></insert> <!-- Sky Atlantic HD -->
 		<insert provider="sat_282_sky_uk" source="263" target="123"></insert> <!-- ITV Encore HD -->
 		<insert provider="sat_282_sky_uk" source="234" target="125"></insert> <!-- TLC HD -->
@@ -30,7 +30,7 @@
 		<insert provider="sat_282_sky_uk" source="839" target="784"></insert> <!-- Star Plus HD -->
 		<insert provider="sat_282_sky_uk" source="860" target="786"></insert> <!-- Colors HD -->
 		<insert provider="sat_282_sky_uk" source="867" target="798"></insert> <!-- SONY MAX HD -->
-		<!-- replace non-working sky HD channels with working ones from cable -->
+		<!-- replace non-working sky HD channels with working ones from virgin -->
 		<insert provider="cable_ie_mk2" source="142" target="104"></insert> <!-- Channel 4 HD -->
 		<insert provider="cable_ie_mk2" source="143" target="106"></insert> <!-- Sky One HD -->
 		<insert provider="cable_ie_mk2" source="144" target="107"></insert> <!-- Sky Living HD -->
@@ -72,7 +72,7 @@
 		<insert provider="cable_ie_mk2" source="225" target="553"></insert> <!-- Crime + Investigation HD -->
 		<insert provider="cable_ie_mk2" source="634" target="604"></insert> <!-- Nickelodeon HD -->
 		<insert provider="cable_ie_mk2" source="633" target="609"></insert> <!-- Disney Channel HD -->
-		<!-- replace non-working sky SD channels with working ones from cable -->
+		<!-- replace non-working sky SD channels with working ones from virgin -->
 		<insert provider="cable_ie_mk2" source="160" target="109"></insert> <!-- W -->
 		<insert provider="cable_ie_mk2" source="120" target="110"></insert> <!-- G.O.L.D. -->
 		<insert provider="cable_ie_mk2" source="122" target="111"></insert> <!-- Dave -->
@@ -160,7 +160,6 @@
 		<insert provider="cable_ie_mk2" source="406" target="474"></insert> <!-- Sky Sports Arena -->
 		<insert provider="cable_ie_mk2" source="408" target="475"></insert> <!-- Sky Sports News -->
 		<insert provider="cable_ie_mk2" source="862" target="491"></insert> <!-- PPV Channel -->
-		<insert provider="cable_ie_mk2" source="863" target="492"></insert> <!-- PPV Channel 2 -->
 		<insert provider="cable_ie_mk2" source="204" target="505"></insert> <!-- CNBC Europe -->
 		<insert provider="cable_ie_mk2" source="203" target="508"></insert> <!-- Euronews -->
 		<insert provider="cable_ie_mk2" source="202" target="516"></insert> <!-- Sky News -->
@@ -198,7 +197,7 @@
 		<insert provider="cable_ie_mk2" source="860" target="900"></insert> <!-- Playboy -->
 		<insert provider="cable_ie_mk2" source="859" target="901"></insert> <!-- The Adult Channel -->
 		<insert provider="cable_ie_mk2" source="858" target="903"></insert> <!-- TVX -->
-		<!-- Adds Irish cable channels not available on sat -->
+		<!-- Adds Irish virgin channels not available on sky -->
 		<insert provider="cable_ie_mk2" source="135" target="092"></insert> <!-- RTE One HD -->
 		<insert provider="cable_ie_mk2" source="136" target="093"></insert> <!-- RTE2 HD -->
 		<insert provider="cable_ie_mk2" source="150" target="094"></insert> <!-- TV3 HD -->
@@ -218,10 +217,12 @@
 		<section number="088">Irish Channels</section>
     </sections>
 	<deletes>
-		<!-- Deletes non-working sat HD channels that are not available on cable -->
+		<!-- Deletes non-working sky HD channels that are not available on virgin -->
 		<delete target="406"></delete> <!-- Skysp F1 HD -->
 		<delete target="421"></delete> <!-- Chelsea TV HD -->
+		<delete target="492"></delete> <!-- SkySpBoxOff HD -->
 		<delete target="493"></delete> <!-- ITV Box Office HD -->
+		<delete target="889"></delete> <!-- Sky Insider HD -->
 		<delete target="995"></delete> <!-- Sky AtlntcVIP HD -->
 		<delete target="998"></delete> <!-- Sky Intro HD -->
 		<!-- Deletes duplicate SD channel -->
@@ -399,7 +400,11 @@ Include 'not indexed' channels - Yes
 CREDITS
 
 I would like to thank the following people in no particular order:
-Huevos, Abu Baniaz, Dsayers, Wooshman, Rossi, doglover and everybody involved in the ABM team over at http://www.world-of-satellite.com. Without all of these wonderful people this file would not exist nor would the Irish VM provider or EPG exist. These are the people that did the hard work, I just asked the questions and followed their advice.
+Huevos, Abu Baniaz, Dsayers, Wooshman, Rossi, doglover, jasper1974, Peterj and everybody involved in 
+the ABM team over at http://www.world-of-satellite.com. Without all of these wonderful people this 
+file would not exist nor would the Irish VM provider or EPG exist. These are the people that did the 
+hard work, I just asked the questions and followed their advice. Please don't forget to give them some
+thanks.
 
 ----------------------------------------------------------
 ]]>
