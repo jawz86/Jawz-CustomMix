@@ -343,13 +343,6 @@ for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
 
-# Delete Not-Indexed sections	
-del sections[1096]
-for number in customised["video"].keys():
-	if number > 1095:
-
-		del customised["video"][number]
-
 # Adds HD Bouquet to bottom of bouquets
 if customised["video"]: # check not zero length
 	LCN_list = sorted(customised["video"].keys()) # get LCNs sorted low to high
